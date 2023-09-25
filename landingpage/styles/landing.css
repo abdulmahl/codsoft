@@ -50,3 +50,7 @@ body {
 .header_2 ul li a {
     text-decoration: none;
 }
+
+img#heroImage {
+    width: 100%;
+}
