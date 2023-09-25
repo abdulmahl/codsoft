@@ -17,6 +17,8 @@
 body {
     font-size: var(--body-font-size);
     font-family: var(--heading-font-family);
+    width: 85%;
+    margin: 0 auto;
 }
 
 .header_1 {
@@ -60,5 +62,15 @@ img#heroImage {
     display: flex;
     justify-content: center;
     padding: 2rem;
+}
 
+img#sideMan {
+    width: 55%;
+}
+
+.aboutusDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 75%;
 }
