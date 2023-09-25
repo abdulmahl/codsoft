@@ -1,0 +1,40 @@
+@media only screen and (min-width: 768px) {
+    :root {
+        /* Fonts and their sizes */
+        --headerFont: 'Shantell Sans', sans serif;
+        --bodyFont: 'Mooli', sans serif;
+        --bodyFontSize: 18px;
+    
+        /* Color schemes */
+        --black: #0B0500;
+        --red: #E91B0C;
+        --gray: #7A7A7A;
+        --white: #F7F7FF;
+    }
+
+    header, footer {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    img#myImage {
+        width: 50%;
+    }
+
+    .container {
+        width: 75%;
+        margin: 2rem auto;
+        border: 3px solid var(--gray);
+        border-radius: 2rem;
+        padding: .7rem;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: var(--gray);
+    }
+    
+}

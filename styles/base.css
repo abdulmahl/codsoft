@@ -1,0 +1,75 @@
+:root {
+    /* Fonts and their sizes */
+    --headerFont: 'Shantell Sans', sans serif;
+    --bodyFont: 'Mooli', sans serif;
+    --bodyFontSize: 18px;
+
+    /* Color schemes */
+    --black: #0B0500;
+    --red: #E91B0C;
+    --gray: #7A7A7A;
+    --white: #F7F7FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--bodyFont);
+    font-size: var(--bodyFontSize);
+}
+
+div.headerWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--black);
+    padding: 1.5rem;
+}
+
+h1.myName {
+    font-family: var(--headerFont);
+    font-size: 2rem;
+    margin-top: .5rem;
+    color: var(--red);
+}
+
+img#myImage {
+    width: 45%;
+    height: auto;
+    border-radius: 3rem 1.3rem 5rem 1.9rem;
+}
+
+#projectTitles {
+    padding: 2rem 23%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: .3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    padding: .1rem;
+}
+
+footer {
+    background: var(--black);
+    color: var(--red);
+    text-align: center;
+    padding: 2rem 0;
+}
