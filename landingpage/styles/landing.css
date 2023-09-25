@@ -1,0 +1,52 @@
+:root {
+    /* Typography */
+    --body-font-size: 18px;
+    --heading-font-family: 'Ubuntu', sans serif;
+    --body-font-family:
+
+    /* Colors */
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: var(--body-font-size);
+    font-family: var(--heading-font-family);
+}
+
+.header_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-image: linear-gradient(to right, orange, hotpink);
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: 1.3rem;
+}
+
+.header_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.header_2 ul  {
+    display: flex;
+    list-style: none;
+    gap: .9rem
+}
+
+.header_2 ul li a {
+    text-decoration: none;
+}
