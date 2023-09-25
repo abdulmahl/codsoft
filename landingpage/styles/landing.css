@@ -54,3 +54,11 @@ body {
 img#heroImage {
     width: 100%;
 }
+
+.launch-support-time {
+    background-image: linear-gradient(to right, orange, hotpink);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+}
