@@ -45,7 +45,6 @@ body {
 }
 
 .request_consult:hover {
-    border: none;
     text-decoration: underline;
 }
 
@@ -105,6 +104,11 @@ img#heroImage {
 
 .agency {
     text-shadow: .3px .3px 3px hotpink;
+}
+
+.about {
+    border-bottom: 3px solid hotpink;
+    width: 9rem;
 }
 
 .launch-support-time {
