@@ -5,7 +5,6 @@
 
     /* Colors schema */
     --white: #F7F7FF;
-
 }
 
 * {
@@ -118,12 +117,22 @@ img#heroImage {
     padding: 2rem;
 }
 
-#launch, #support, #time {
-    width: 50%;
+#support, #time {
+    width: 30%;
+    border: thin solid #ccc;
+    border-radius: 50%;
+    padding: .7rem;
+}
+
+#launch {
+    border: thin solid #ccc;
+    border-radius: 50%;
+    padding: .3rem;
 }
 
 .launch, .support, .time {
     display: flex;
+    gap: .3rem;
     align-items: center;
 }
 
@@ -166,4 +175,27 @@ img#sideMan {
 
 .mapbackground {
     background-image: url('../images/mapworld.svg');
+    width: 100%;
+}
+
+.servicesImages {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem 0;
+}
+
+.stackUpContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 2rem;
+}
+
+#speaker, #recycle,
+#dollar {
+    width: 20%;
+    margin-top: .3rem;
+}
+
+.retina {
+    margin-right: 7rem;
 }
