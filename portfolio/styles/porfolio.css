@@ -1,0 +1,59 @@
+:root {
+    --bodyFontSize: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1.myName {
+    text-align: center;
+    padding: 2rem;
+}
+
+.tagline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.sectionHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+nav ul {
+    display: none;
+}
+
+img {
+    width: 30%;
+    padding: 1.5rem;
+    /* display: block; */
+    /* margin-left: auto; */
+}
+
+.aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.aboutmeTagline {
+    padding: 2rem;
+    width: 50%;
+}
+
+.mySkillsSection {
+    padding: 2rem;
+}
+
+.programmingLangs {
+    width: 20%;
+    display: flex;
+}
