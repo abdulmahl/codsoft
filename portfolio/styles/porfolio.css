@@ -14,9 +14,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: var(--bodyFontSize);
+}
+
 h1.myName {
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0 0;
 }
 
 .tagline {
@@ -24,17 +28,27 @@ h1.myName {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 63%;
+    padding: 0 0 1.5rem;
+    width: 69%;
 }
 
 .sectionHeader {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    background-color: var(--primaryBlue);
+    color: var(--white);
 }
 
 nav ul {
-    display: none;
+    display: flex;
+    padding: 2rem;
+    list-style: none;
+}
+
+nav ul li a {
+    margin: 3rem;
+    text-decoration: none;
 }
 
 img#myImage {
@@ -101,8 +115,17 @@ img#screenGrab {
     padding: 2rem;
 }
 
+.contact ul li {
+    list-style: none;
+    padding: .3rem;
+}
+
+.resumeButton {
+    padding: 2rem;
+}
+
 #resumeLink {
-    background-color: var(--myBlue);
+    background-color: var(--primaryBlue);
     color: var(--white);
     padding: 10px 20px;
     text-decoration: none;
@@ -117,7 +140,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: .3rem;
     padding: 3rem;
     font-size: 1.5rem;
+    background-color: var(--primaryBlue);
+    color: var(--white);
 }
