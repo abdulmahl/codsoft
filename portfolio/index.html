@@ -6,6 +6,7 @@
     <title>My Portfolio &bull; Abdul Mahlangu</title>
     <meta name="description" content="My Portfolio Page">
     <link rel="stylesheet" href="styles/porfolio.css">
+    <script type="module" src="scripts/index.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
             <h1 class="myName">M. Abdul Mahlangu</h1>
             <p class="tagline">
                 Hey there, I'm Abdul, I am seeking employment in Web Development, 
-                Computer Programming, and/or JavaScript Development field.
+                Computer Programming, and/or in the JavaScript Development fields.
                 My Journey in Web Development and Programming,
                 my passion and dedication to creating exceptional digital experiences.        
             </p>
@@ -30,7 +31,7 @@
     </nav>
     <main>
         <div class="aboutMe">
-            <img src="images/myImage.jpeg" alt="my-image">
+            <img src="images/myImage.jpeg" alt="my-image" id="myImage">
             <p class="aboutmeTagline">
                 **Mduduzi Abdul Mahlangu**
                 *Web Developer and Computer Programmer*
@@ -55,7 +56,7 @@
             </p>
         </div>
         <section class="mySkillsSection">
-            <h2 class="mySkills">
+            <h2>
                 My Skills
             </h2>
             <div class="programmingLangs">
@@ -72,61 +73,65 @@
             </div>
         </section>
         <section class="projectsSection">
-            <h2 class="myProjects">
+            <h2>
                 My Projects
             </h2>
             <div class="sectionWrap">
                 <div class="chamberWrap">
                     <p class="chamber">Chamber of Commerce Site</p>
-                    <img src="images/chamber.png" alt="chamber-screenshot">
+                    <img src="images/chamber.png" alt="chamber-screenshot" id="screenGrab">
+                    <p class="chamberDesc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sed minus, dicta impedit rerum earum maiores ab est 
+                        soluta consequuntur? Necessitatibus laboriosam omnis
+                    </p>
+                </div>
+
+                <div class="chamberWrap">
+                    <p class="chamber">Fresh Produce Foods Site</p>
+                    <img src="images/bountiful.png" alt="fresh-produce-screenshot" id="screenGrab">
+                    <p class="chamberDesc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sed minus, dicta impedit rerum earum maiores ab est 
+                        soluta consequuntur? Necessitatibus laboriosam omnis
+                    </p>
+                </div>
+
+                <div class="chamberWrap">
+                    <p class="chamber">Weather App Site</p>
+                    <img src="images/weatherApp.png" alt="weather-app-screenshot" id="screenGrab">
                     <p class="chamberDesc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Sed minus, dicta impedit rerum earum maiores ab est 
                         soluta consequuntur? Necessitatibus laboriosam omnis 
-                        nulla nihil commodi dolor! Totam eveniet, repudiandae 
-                        magni aspernatur, quibusdam modi expedita explicabo rem 
-                        aperiam, illum debitis corrupti?
                     </p>
                 </div>
                
-                <p class="chamber">Chamber of Commerce Site</p>
-                <img src="images/chamber.png" alt="chamber-screenshot">
-                <p class="chamberDesc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Sed minus, dicta impedit rerum earum maiores ab est 
-                    soluta consequuntur? Necessitatibus laboriosam omnis 
-                    nulla nihil commodi dolor! Totam eveniet, repudiandae 
-                    magni aspernatur, quibusdam modi expedita explicabo rem 
-                    aperiam, illum debitis corrupti?
-                </p>
-                <p class="chamber">Chamber of Commerce Site</p>
-                <img src="images/chamber.png" alt="chamber-screenshot">
-                <p class="chamberDesc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Sed minus, dicta impedit rerum earum maiores ab est 
-                    soluta consequuntur? Necessitatibus laboriosam omnis 
-                    nulla nihil commodi dolor! Totam eveniet, repudiandae 
-                    magni aspernatur, quibusdam modi expedita explicabo rem 
-                    aperiam, illum debitis corrupti?
-                </p>
             </div>
 
         </section>
         <section class="resumeSection">
-            <h2 class="myResume">
+            <h2>
                 My Resume
             </h2>
+            <a href="" id="resumeLink">Download My Resume</a>
         </section>
         <section class="contactmeSection">
-            <h2 class="contact">
-                My Contacts
+            <h2>
+                My Contacts and Social Media Handles
             </h2>
+            <div class="contact">
+                <p>Cell Phone: </p>
+                <p>Email: </p>
+                <p>LinkedIn: </p>
+                <p>Facebook: </p>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; <span #year></span> M. Abdul Mahlangu</p>
+        <p>&copy; <span id="year"></span> M. Abdul Mahlangu</p>
         <p class="rights">All Rights Reserved</p>
-        <p>Updated: <span #update></span></p>
+        <p>Updated: <span id="update"></span></p>
     </footer>
 </body>
 </html>
