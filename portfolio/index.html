@@ -22,15 +22,15 @@
     </header>
     <nav id="navigation">
         <ul>
-            <li><a href="aboutMe">About Me</a></li>
-            <li><a href="#">My Skills</a></li>
-            <li><a href="#">My Projects</a></li>
-            <li><a href="#">My Resume</a></li>
-            <li><a href="#">My Contacts</a></li>
+            <li><a id="tab-1" href="#aboutMe">About Me</a></li>
+            <li><a id="tab-2" href="#mySkills">My Skills</a></li>
+            <li><a id="tab-3" href="#myProjects">My Projects</a></li>
+            <li><a id="tab-4" href="#myResume">My Resume</a></li>
+            <li><a id="tab-5" href="#myContacts">My Contacts</a></li>
         </ul>
     </nav>
     <main>
-        <div class="aboutMe">
+        <div id="aboutMe">
             <img src="images/myImage.jpeg" alt="my-image" id="myImage">
             <p class="aboutmeTagline">
                 **Mduduzi Abdul Mahlangu**
@@ -55,7 +55,7 @@
                 ---
             </p>
         </div>
-        <section class="mySkillsSection">
+        <section id="mySkills">
             <h2>
                 My Skills
             </h2>
@@ -72,7 +72,7 @@
                 <img src="images/icons8-github-100.png" alt="github-icon">
             </div>
         </section>
-        <section class="projectsSection">
+        <section id="myProjects">
             <h2>
                 My Projects
             </h2>
@@ -110,7 +110,7 @@
             </div>
 
         </section>
-        <section class="resumeSection">
+        <section id="myResume">
             <h2>
                 My Resume
             </h2>
@@ -118,20 +118,26 @@
                 <a href="https://acrobat.adobe.com/id/urn:aaid:sc:eu:ae0449d0-bf33-465a-8070-b6c09e7f8115" target="_blank" id="resumeLink">Download My Resume</a>
             </div>
         </section>
-        <section class="contactmeSection">
+        <section id="myContacts">
             <h2>
                 Contact Me
             </h2>
             <div class="contact">
                 <ul>
-                    <li>Cell Phone: <a href="#" target="_blank">+27769001909</a></li>
-                    <li>Email: <a href="#" target="_blank">abdulmahl8704@gmail.com</a></li>
+                    <li>Cell Phone: <a href="tel:+27769001909" target="_blank">+27769001909</a></li>
+                    <li>Email: <a href="mailto:mdu_abdul@icloud.com" target="_blank">Abdul Mahlangu</a></li>
                     <li>LinkedIn: <a href="https://www.linkedin.com/in/abdul-mahlangu/" target="_blank">LinkedIn/abdulmahl</a></li>
                 </ul>
             </div>
         </section>
     </main>
     <footer>
+        <div class="myLinks">
+            <a href="https://abdulmahl.github.io/wdd230/chamber/index.html" target="_blank">Chamber of Commerce Site</a>
+            <a href="https://abdulmahl.github.io/wdd230/bountifulfoods/index.html" target="_blank">Bountiful Foods Site</a>
+            <a href="file:///Users/m.abdulmahlangu/Documents/cse-121b/week%2006/index.html" target="_blank">Weather App Site</a>
+            
+        </div>
         <p>&copy; <span id="year"></span> M. Abdul Mahlangu</p>
         <p class="rights">All Rights Reserved</p>
         <p>Updated: <span id="update"></span></p>

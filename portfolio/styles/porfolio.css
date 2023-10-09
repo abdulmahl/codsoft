@@ -53,22 +53,22 @@ nav ul li a {
 
 img#myImage {
     width: 30%;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
 }
 
-.aboutMe {
+#aboutMe {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 p.aboutmeTagline {
-    padding: 2rem;
+    padding-left: 2rem;
     width: 50%;
 }
 
-.mySkillsSection, .projectsSection, .resumeSection,
-.contactmeSection {
+#mySkills, #myProjects, #myResume,
+#myContacts {
     padding: 2rem;
 }
 
@@ -96,6 +96,7 @@ h2 {
 
 .sectionWrap {
     padding: 2rem;
+    display: flex;
 }
 
 .chamberDesc {
