@@ -51,6 +51,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    text-decoration: line-through
+}
+
 img#myImage {
     width: 30%;
     /* padding: 1.5rem; */
@@ -156,4 +160,9 @@ footer {
 
 .myLinks a {
     color: var(--white);
+    text-decoration: none;
+}
+
+.myLinks a:hover {
+    text-decoration: line-through;
 }
