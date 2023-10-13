@@ -147,3 +147,13 @@ footer {
     background-color: var(--primaryBlue);
     color: var(--white);
 }
+
+.myLinks {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.myLinks a {
+    color: var(--white);
+}
