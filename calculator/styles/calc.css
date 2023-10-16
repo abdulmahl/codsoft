@@ -6,29 +6,32 @@
 
 .container {
     border: 3px solid #ccc;
-    border-radius: .7rem;
-    width: 60%;
+    width: 40%;
     margin: 7rem auto;
 }
 
 .headerScreen {
-    background-color: hotpink;
+    background-color: #ccc;
     height: 5rem;
     width: 100%;
-    border-radius: .5rem .5rem 0 0;
     font-size: 3rem;
     text-align: right;
     padding: 1rem;
 }
 
-.operatorBtns {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2rem;
+.clear {
+    background: #90ee90;
+    color: #fff;
+}
+
+.add, .subtract, .times, .divide {
+   background-color: #393232;
+   color: #fff;
 }
 
 button {
     font-size: 3rem;
+    border-radius: 0;
 }
 
 .numberBtns {
@@ -39,4 +42,5 @@ button {
 .equals {
     grid-column: 4 / 5;
     grid-row: 2 / 6;
+    background-color: #ff4500;
 }
