@@ -5,8 +5,9 @@
 }
 
 .container {
-    border: 3px solid black;
-    width: 70%;
+    border: 3px solid #ccc;
+    border-radius: .7rem;
+    width: 60%;
     margin: 7rem auto;
 }
 
@@ -14,13 +15,13 @@
     background-color: hotpink;
     height: 5rem;
     width: 100%;
+    border-radius: .5rem .5rem 0 0;
 }
 
 .operatorBtns {
     display: flex;
     justify-content: space-between;
     padding: 0 2rem;
-    font-size: 3rem;
 }
 
 button {
@@ -30,4 +31,9 @@ button {
 .numberBtns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.equals {
+    grid-column: 4 / 5;
+    grid-row: 2 / 6;
 }
