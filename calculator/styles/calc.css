@@ -16,6 +16,9 @@
     height: 5rem;
     width: 100%;
     border-radius: .5rem .5rem 0 0;
+    font-size: 3rem;
+    text-align: right;
+    padding: 1rem;
 }
 
 .operatorBtns {

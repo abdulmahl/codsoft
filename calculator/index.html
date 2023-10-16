@@ -8,28 +8,30 @@
 </head>
 <body>
     <main>
+
         <div class="container">
-            <div class="headerScreen"></div>
+            <div class="headerScreen" id="calculator__screen">0</div>
             <div class="numberBtns">
-                <button class="add">&plus;</button>
-                <button class="subtract">&minus;</button>
-                <button class="times">&times;</button>
-                <button class="divide">&divide;</button>
-                <button class="btn-1">7</button>
-                <button class="btn-2">8</button>
-                <button class="btn-3">9</button>
-                <button class="btn-4">4</button>
-                <button class="btn-5">5</button>
-                <button class="btn-6">6</button>
-                <button class="btn-7">1</button>
-                <button class="btn-8">2</button>
-                <button class="btn-9">3</button>
-                <button class="btn-0">0</button>
-                <button class="comma">&#x2219;</button>
-                <button class="clear">CE</button>
-                <button class="equals">&equals;</button>
+                <button class="add" onclick="handleOperation('+')">&plus;</button>
+                <button class="subtract" onclick="handleOperation('-')">&minus;</button>
+                <button class="times" onclick="handleOperation('*')">&times;</button>
+                <button class="divide" onclick="handleOperation('/')">&divide;</button>
+                <button class="btn-1" onclick="appendToScreen('7')">7</button>
+                <button class="btn-2" onclick="appendToScreen('8')">8</button>
+                <button class="btn-3" onclick="appendToScreen('9')">9</button>
+                <button class="btn-4" onclick="appendToScreen('4')">4</button>
+                <button class="btn-5" onclick="appendToScreen('5')">5</button>
+                <button class="btn-6" onclick="appendToScreen('6')">6</button>
+                <button class="btn-7" onclick="appendToScreen('1')">1</button>
+                <button class="btn-8" onclick="appendToScreen('2')">2</button>
+                <button class="btn-9" onclick="appendToScreen('3')">3</button>
+                <button class="btn-0" onclick="appendToScreen('0')">0</button>
+                <button class="comma" onclick="appendToScreen('.')">&#x2219;</button>
+                <button class="clear" onclick="clearScreen()">CE</button>
+                <button class="equals" onclick="performEvaluation()">&equals;</button>
             </div>
         </div>
     </main>
+    <script src="scripts/index.js" defer></script>
 </body>
 </html>
