@@ -5,20 +5,17 @@
 }
 
 .container {
-    border: 3px solid #ccc;
-    width: 40%;
+    width: 30%;
     margin: 7rem auto;
 }
 
 .headerScreen {
     background-color: #ccc;
     height: 5rem;
-    width: 100%;
     font-size: 3rem;
     text-align: right;
     padding: 1rem;
 }
-
 
 .clear {
     background: #17e317;
